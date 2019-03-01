@@ -21,6 +21,7 @@ checks:
       - CCI-000366
     oval-ids:
     - xccdf_org:ssgproject:content_rule_install_mcafee_antivirus
+    - install_mcafee_antivirus
   oval:com.puppet.forge.simp.clamav.enable_freshclam:
     settings:
       parameter: clamav::enable_freshclam
@@ -41,6 +42,7 @@ checks:
       - CCI-000366
     oval-ids:
     - xccdf_org:ssgproject:content_rule_install_mcafee_antivirus
+    - install_mcafee_antivirus
   oval:com.puppet.forge.simp.clamav.package_name:
     settings:
       parameter: clamav::package_name
@@ -71,3 +73,4 @@ checks:
       - CCI-000366
     oval-ids:
     - xccdf_org:ssgproject:content_rule_install_mcafee_antivirus
+    - install_mcafee_antivirus
